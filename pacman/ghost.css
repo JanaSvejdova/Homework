@@ -1,0 +1,33 @@
+body{ 
+    background-color: cadetblue;
+}
+
+
+div{
+    width: 150px;
+    height: 150px;
+    background-color: red;   
+    position: relative;
+    border: 2px solid black;
+    border-radius: 90px 90px 0 0;
+}
+
+
+.eye{
+    height: 10px;
+    width: 10px;
+    margin-top: -120px;
+    margin-left: 80px;
+    border-radius: 50%;
+    border: 10px solid white;
+    background-color: blue;
+}
+.eye::after{
+    height: 10px;
+    width: 10px;
+    margin-top: -120px;
+    margin-left: 80px;
+    border-radius: 50%;
+    border: 10px solid white;
+    background-color: blue;
+}
